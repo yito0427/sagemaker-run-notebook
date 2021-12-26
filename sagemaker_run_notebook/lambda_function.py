@@ -87,7 +87,7 @@ def execute_notebook(
                 "VolumeSizeInGB": 40,
             }
         },
-        "StoppingCondition": {"MaxRuntimeInSeconds": 7200},
+        "StoppingCondition": {"MaxRuntimeInSeconds": 72000},
         "AppSpecification": {
             "ImageUri": image,
             "ContainerArguments": [
